@@ -1,0 +1,65 @@
+adicionar elemento no final de um array js -> arrayNome.push();
+
+remover o último elemento de um array -> arrayNome.pop();
+
+remove um elemento específico do Array e recebe 2 parâmetros: o primeiro é a posição inicial, o segundo é a quantidade de elementos -> arrayNome.splice();
+
+remove o primeiro elemento de um Array -> arrayNome.shift();
+
+Para saber a quantidade de elementos existentes em um Array usamos a propriedade length -> arrayNome.length
+
+E para ordenarmos esses nomes e exibi-los em ordem alfabética basta usar o método sort() --> arrayNome.sort();
+
+RAIZ WINDOW --> CONTROLE DO NAVEGADOR
+Com o uso do objeto window, temos acesso à vários recursos do navegador, como, por exemplo:
+Abrir uma nova janela no navegador (window.open)
+Fechar uma janela (window.close) 
+Definir que site será acessado (window.location) 
+Definir o tamanho e posicionamento das janelas (propriedades width, height, top e left de window.open)
+Exibir ou ocultar itens da janela, como barra de endereços, barra de status, barras de rolagens, entre outros.
+
+RAIZ DOCUMENT --> REPRESENTAR O HTML E SUA ESTRUTURA
+Acessar o título do documento (document.title)
+Acessar a URL do documento (document.URL)
+Criar um elemento HTML pelo JavaScript (document.createElement), entre outros
+
+RAIZ ELEMENT --> CONTROLA OS ELEMENTOS HTML E SUAS CARACTERÍSTICAS
+Modificar sua classe CSS (elemento.className)
+Modificar seu conteúdo (elemento.innerHTML e document.outerHTML)
+Saber quem são seus elementos filhos (document.children)
+Ter acesso a seus atributos (document.attributes), entre outros
+
+meios de disparar um evento no JS:
+onclick]onmouseout
+onchange
+onkeydown
+onload
+onmouseover
+
+
+Como Date() é uma classe de objeto, precisamos instanciar/criar este objeto com o comando new, da seguinte forma:
+let dataHoraAtual = new Date();
+
+Como Date() é um objeto, ele fornece métodos para a obtenção dos dados individualmente, como a hora, o minuto e o segundo atual.
+
+
+Método split()
+
+O método split(), que significa “dividir”, permite a divisão de strings e retorna um array. A divisão pode ser baseada em qualquer caractere. 
+
+No exemplo abaixo, dividimos uma string  separando seus conteúdos que estão entre vírgulas (linha 3) e uma letra de música separando as palavras que estão entre espaço em branco (linha 8). 
+
+O retorno são um array com os pedaços de nomes separados e as palavras da letra de música, respectivamente.
+
+Para converter uma String em JSON, podemos utilizar o método JSON.parse().
+Para realizar a conversão contrária, de JSON para String, podemos utilizar o método JSON.stringfy()
+
+btg-lg: define o botão com tamanho grande(large). 
+
+
+bullet
+btg-sm: define o botão com tamanho pequeno(small). 
+
+
+bullet
+btn-block: define o botão para ocupar toda a largura do elemento pai. 

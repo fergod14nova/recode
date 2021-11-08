@@ -1,0 +1,22 @@
+O uso do console.log é uma forma genérica de registrar uma mensagem, mas a maioria das linguagens de programação permite registrar mensagens com tipos específicos, tais como:
+
+
+bullet
+Log: mensagem genérica, mais comumente utilizada.
+
+
+bullet
+Info: registra um log do tipo "informação".
+
+
+bullet
+Debug: registra um log do tipo "depuração" de código.
+
+
+bullet
+Warm: registra um log do tipo alerta.
+
+
+bullet
+Error: registra um log do tipo erro. 
+
